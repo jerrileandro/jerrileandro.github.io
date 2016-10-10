@@ -1,0 +1,92 @@
+# Site settings
+
+baseurl: "" # the subpath of your site, e.g. /portfolio
+url: "" # the base hostname & protocol for your site
+language: "" # language to set into html tag, default is en
+
+# User settings
+
+author: Jerri Leandro Lang
+author-title: Full Stack Developer and Systems Analyst
+gravatar: d36a082aacb53b6f76869748fb4b81d4
+email: jerrileandro@gmail.com
+twitter: jerrileandro
+github: jerrileandro
+googleplus: +jerrileandro
+facebook: jerrileandro
+linkedin: jerrileandro/en
+bio: "Brazilian Analyst and Developer. Motorcycling, archaeoastronomy and technology lover.
+      I graduated in Systems Analysis and Development. I love to study and learn new skills,
+      exchange work and study experience with people around me and share my knowledge with the ones that want it. I work with TI since 1998 and with
+      Development since 2004 as Analyst and Developer.
+      I like to work with both: Front-End and Back-End development. I work with many languages, frameworks and technologies.
+      Some experiences: GED, WorkFlow and Accounting area.
+      I Worked with projects in great companies as Nestle, Alston, Raizen, Tramontina, Santander, Real Bank, Paraná Bank, Toyota among others.
+# Skills
+#
+# I'll use five differents levels:
+# 1 - Studying: You know the basics of the skill and is studying it to get better
+# 2 - Padawan: You know a little more than the basics and is comfortable to work with it
+# 3 - Work with: You know how to handle the skill and how to properly use it in a real project
+# 4 - Specialist: You have advanced knowledge of the skill and know how to use its best practices in a real project
+# 5 - Jedi: You master the skill, know how and when to use and when not use it
+#
+# You can change these names in _includes/_skill-level-name.html if you wish
+#
+# If you don't want one of the sections below, leave the variable without any values
+front-end:
+  - name: HTML 5
+    level: 4
+  - name: CSS 3
+    level: 4
+  - name: JavaScript
+    level: 4
+  - name: jQuery
+    level: 4
+  - name: Angular
+    level: 4
+  - name: Bootstrap
+    level: 4
+ 
+back-end:
+  - name: C#
+    level: 5
+  - name: Node.js
+    level: 3
+  - name: Java
+    level: 4
+  - name: Genexus
+    level: 3
+db:
+  - name: SQL Server
+    level: 5
+  - name: Oracle
+    level: 5
+methodologies:
+  - name: Agile Methodologies
+    level: 3
+  - name: Scrum
+    level: 4
+others:
+  - name: Web Services
+    level: 5
+  - name: REST
+    level: 5
+  - name: JEE, JSF, JPA, EJB, CDI
+    level: 3
+  - name: iReport, Jasper Reports
+    level: 4
+  - name: Hibernate
+    level: 3
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sitemap: true # Generate sitemap.xml
+sass:
+  sass_dir: css
+  style: compressed
+## For more settings: https://jekyllrb.com/docs/configuration/
+# exclude files if no need build
+exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE']
+# Gems
+gems: [jekyll-sitemap, bourbon]
